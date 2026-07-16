@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>remotech.dev — Billy K · Software Developer, Nairobi</title>
+<meta name="description" content="Billy K builds WordPress plugins, payment integrations, web platforms and browser extensions from Nairobi, Kenya. Available for remote work worldwide.">
+<meta property="og:title" content="remotech.dev — Software Developer">
+<meta property="og:description" content="WordPress plugins, payment APIs, web platforms and automation tools. Built in Nairobi, shipped worldwide.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://remotech.dev">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="logo">
+      <span class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      </span>
+      remotech<span class="tld">.dev</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#skills">Skills</a>
+      <a href="#work">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#testimonials">Clients</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#contact" class="nav-cta">
+        Hire me
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="badge"><span class="dot" aria-hidden="true"></span>I'm a software developer</span>
+      <h1>Hi, I'm <span class="hl">Billy.</span></h1>
+      <div class="typed-line" aria-label="I build software, websites, apps, plugins, WordPress themes, extensions and APIs">
+        <span class="pre">I build </span><span class="typed" id="typed"></span><span class="cursor" aria-hidden="true"></span>
+      </div>
+      <p class="lede">Software developer based in Nairobi with 6+ years of experience — helping businesses and individuals bring their ideas to life through clean, efficient and reliable code.</p>
+      <div class="cta-row">
+        <a href="#work" class="btn btn-primary">
+          View my work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          Get in touch
+        </a>
+      </div>
+      <div class="hero-tech">
+        <span class="lbl">Technologies I work with</span>
+        <div class="tech-row">
+          <img src="assets/icons/html5-original.svg" alt="HTML5" title="HTML5" loading="lazy">
+          <img src="assets/icons/css3-original.svg" alt="CSS3" title="CSS3" loading="lazy">
+          <img src="assets/icons/javascript-original.svg" alt="JavaScript" title="JavaScript" loading="lazy">
+          <img src="assets/icons/php-original.svg" alt="PHP" title="PHP" loading="lazy">
+          <img src="assets/icons/python-original.svg" alt="Python" title="Python" loading="lazy">
+          <img src="assets/icons/react-original.svg" alt="React" title="React" loading="lazy">
+          <img src="assets/icons/nodejs-original.svg" alt="Node.js" title="Node.js" loading="lazy">
+          <img src="assets/icons/wordpress-plain.svg" alt="WordPress" title="WordPress" loading="lazy" style="filter:invert(1)">
+          <img src="assets/icons/mysql-original.svg" alt="MySQL" title="MySQL" loading="lazy">
+          <img src="assets/icons/git-original.svg" alt="Git" title="Git" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="orb" aria-hidden="true"></div>
+      <svg class="dots-deco" width="90" height="90" aria-hidden="true">
+        <defs><pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="2" fill="#34345C"/></pattern></defs>
+        <rect width="90" height="90" fill="url(#dots)"/>
+      </svg>
+
+      <div class="photo-wrap">
+        <img src="my-photo.png" alt="Billy K, software developer"
+             onerror="this.style.display='none';document.getElementById('photoFallback').style.display='flex';">
+        <div class="photo-fallback" id="photoFallback" style="display:none">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span>Add your photo here:<br>save it as <strong>my-photo.png</strong><br>next to index.html</span>
+        </div>
+      </div>
+
+      <div class="float-card" aria-hidden="true">
+        <div class="float-head"><span class="g"></span>developer.js</div>
+        <div class="float-body">
+<pre><span class="c-kw">const</span> <span class="c-var">billy</span> <span class="c-pun">=</span> <span class="c-pun">{</span>
+  <span class="c-key">based</span><span class="c-pun">:</span> <span class="c-str">"Nairobi"</span><span class="c-pun">,</span>
+  <span class="c-key">exp</span><span class="c-pun">:</span> <span class="c-str">"6+ years"</span><span class="c-pun">,</span>
+  <span class="c-key">remote</span><span class="c-pun">:</span> <span class="c-var">true</span>
+<span class="c-pun">};</span></pre>
+        </div>
+      </div>
+
+      <div class="badge-float">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </span>
+        <span>Available now<small>Open for new projects</small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat reveal">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <div><div class="num">6+</div><div class="lbl">Years experience</div></div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <div><div class="num">40+</div><div class="lbl">Projects delivered</div></div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div><div class="num">20+</div><div class="lbl">Happy clients</div></div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <div><div class="num">&lt;24h</div><div class="lbl">Response time</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-label">My skills</div>
+      <h2>Technologies I master</h2>
+      <p>The tools I use daily to take projects from idea to production.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/php-original.svg" alt="" loading="lazy">PHP</span>
+          <span class="skill-pct">95%</span>
+        </div>
+        <div class="bar"><i data-w="95"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/wordpress-plain.svg" alt="" loading="lazy" style="filter:invert(1)">WordPress</span>
+          <span class="skill-pct">95%</span>
+        </div>
+        <div class="bar"><i data-w="95"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/javascript-original.svg" alt="" loading="lazy">JavaScript</span>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="bar"><i data-w="90"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/html5-original.svg" alt="" loading="lazy">HTML5</span>
+          <span class="skill-pct">95%</span>
+        </div>
+        <div class="bar"><i data-w="95"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/css3-original.svg" alt="" loading="lazy">CSS3</span>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="bar"><i data-w="90"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/nodejs-original.svg" alt="" loading="lazy">Node.js</span>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="bar"><i data-w="85"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/react-original.svg" alt="" loading="lazy">React</span>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="bar"><i data-w="80"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/mysql-original.svg" alt="" loading="lazy">MySQL</span>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="bar"><i data-w="85"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/linux-original.svg" alt="" loading="lazy">Linux</span>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="bar"><i data-w="90"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/python-original.svg" alt="" loading="lazy">Python</span>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="bar"><i data-w="80"></i></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-top">
+          <span class="skill-name"><img src="assets/icons/git-original.svg" alt="" loading="lazy">Git</span>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="bar"><i data-w="90"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-label">Featured projects</div>
+      <h2>Some of my recent work</h2>
+      <p>Production software with real users — built, shipped and maintained.</p>
+    </div>
+
+    <div class="work-grid">
+      <!-- Fux Connect -->
+      <article class="proj reveal">
+        <div class="proj-thumb">
+          <svg viewBox="0 0 360 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect x="40" y="30" width="280" height="120" rx="8" fill="#15152A" stroke="#22223A"/>
+            <rect x="40" y="30" width="280" height="26" rx="8" fill="#1A1A2E"/>
+            <circle cx="54" cy="43" r="3" fill="#E5644E"/><circle cx="66" cy="43" r="3" fill="#E5A94E"/><circle cx="78" cy="43" r="3" fill="#3DD68C"/>
+            <path d="M150 105 a42 42 0 0 1 60 0" stroke="#6D5DF6" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M160 115 a28 28 0 0 1 40 0" stroke="#6D5DF6" stroke-width="4" fill="none" stroke-linecap="round" opacity=".7"/>
+            <path d="M170 125 a14 14 0 0 1 20 0" stroke="#6D5DF6" stroke-width="4" fill="none" stroke-linecap="round" opacity=".45"/>
+            <circle cx="180" cy="134" r="4" fill="#8B7CFF"/>
+            <rect x="230" y="70" width="70" height="14" rx="4" fill="#22223A"/>
+            <rect x="230" y="92" width="52" height="14" rx="4" fill="#22223A"/>
+            <rect x="60" y="70" width="70" height="14" rx="4" fill="#22223A"/>
+            <rect x="60" y="92" width="52" height="14" rx="4" fill="#22223A"/>
+          </svg>
+          <span class="proj-num">/01</span>
+        </div>
+        <div class="proj-body">
+          <h3>Fux Connect</h3>
+          <p>A WiFi hotspot management system built with Electron — captive portal, voucher access and Pesapal payment integration for ISP-style operations.</p>
+          <div class="tags"><span class="tag">Electron</span><span class="tag">Pesapal</span><span class="tag">Captive portal</span></div>
+          <span class="proj-link">Desktop application
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- Client SaaS -->
+      <article class="proj reveal">
+        <div class="proj-thumb">
+          <svg viewBox="0 0 360 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect x="40" y="30" width="280" height="120" rx="8" fill="#15152A" stroke="#22223A"/>
+            <rect x="40" y="30" width="280" height="26" rx="8" fill="#1A1A2E"/>
+            <circle cx="54" cy="43" r="3" fill="#E5644E"/><circle cx="66" cy="43" r="3" fill="#E5A94E"/><circle cx="78" cy="43" r="3" fill="#3DD68C"/>
+            <rect x="58" y="70" width="120" height="66" rx="6" fill="#101020" stroke="#22223A"/>
+            <rect x="66" y="80" width="46" height="20" rx="3" fill="#6D5DF6" opacity=".85"/>
+            <rect x="118" y="80" width="30" height="20" rx="3" fill="#22223A"/>
+            <rect x="66" y="106" width="82" height="20" rx="3" fill="#22223A"/>
+            <rect x="190" y="70" width="112" height="12" rx="4" fill="#22223A"/>
+            <rect x="190" y="90" width="88" height="12" rx="4" fill="#22223A"/>
+            <rect x="190" y="110" width="100" height="12" rx="4" fill="#22223A"/>
+            <rect x="190" y="130" width="60" height="10" rx="4" fill="#6D5DF6" opacity=".7"/>
+          </svg>
+          <span class="proj-num">/02</span>
+        </div>
+        <div class="proj-body">
+          <h3>Cutting Optimization SaaS</h3>
+          <p>Upgraded and extended a material cutting optimization platform for a client — new algorithm features, UI improvements and a smoother workflow end to end.</p>
+          <div class="tags"><span class="tag">SaaS</span><span class="tag">PHP</span><span class="tag">JavaScript</span></div>
+          <span class="proj-link">Client project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- VPN app -->
+      <article class="proj reveal">
+        <div class="proj-thumb">
+          <svg viewBox="0 0 360 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect x="140" y="22" width="80" height="140" rx="12" fill="#15152A" stroke="#22223A"/>
+            <rect x="168" y="30" width="24" height="5" rx="2.5" fill="#22223A"/>
+            <circle cx="180" cy="82" r="24" fill="none" stroke="#6D5DF6" stroke-width="3"/>
+            <path d="M180 70v14l9 6" stroke="#8B7CFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <rect x="156" y="118" width="48" height="10" rx="5" fill="#6D5DF6" opacity=".85"/>
+            <rect x="156" y="134" width="48" height="8" rx="4" fill="#22223A"/>
+            <rect x="58" y="60" width="60" height="10" rx="4" fill="#22223A"/>
+            <rect x="58" y="78" width="44" height="10" rx="4" fill="#22223A"/>
+            <rect x="244" y="60" width="60" height="10" rx="4" fill="#22223A"/>
+            <rect x="244" y="78" width="44" height="10" rx="4" fill="#22223A"/>
+          </svg>
+          <span class="proj-num">/03</span>
+        </div>
+        <div class="proj-body">
+          <h3>VPN Mobile App</h3>
+          <p>Scoped and developed an Android-first VPN application for a client — server selection, connection management and a clean mobile UI.</p>
+          <div class="tags"><span class="tag">Android</span><span class="tag">Mobile</span><span class="tag">Networking</span></div>
+          <span class="proj-link">Client project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- WP theme -->
+      <article class="proj reveal">
+        <div class="proj-thumb">
+          <svg viewBox="0 0 360 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect x="40" y="30" width="280" height="120" rx="8" fill="#15152A" stroke="#22223A"/>
+            <rect x="40" y="30" width="280" height="26" rx="8" fill="#1A1A2E"/>
+            <circle cx="54" cy="43" r="3" fill="#E5644E"/><circle cx="66" cy="43" r="3" fill="#E5A94E"/><circle cx="78" cy="43" r="3" fill="#3DD68C"/>
+            <rect x="58" y="68" width="130" height="16" rx="4" fill="#22223A"/>
+            <rect x="58" y="92" width="100" height="10" rx="4" fill="#22223A"/>
+            <rect x="58" y="108" width="80" height="10" rx="4" fill="#22223A"/>
+            <rect x="58" y="126" width="54" height="14" rx="7" fill="#6D5DF6" opacity=".85"/>
+            <circle cx="262" cy="102" r="30" fill="#101020" stroke="#6D5DF6" stroke-width="2"/>
+            <path d="M250 102c4-8 20-8 24 0-4 8-20 8-24 0z" fill="#6D5DF6" opacity=".75"/>
+          </svg>
+          <span class="proj-num">/04</span>
+        </div>
+        <div class="proj-body">
+          <h3>MindCare Pro</h3>
+          <p>A complete WordPress theme for mental health practices — appointment-focused layouts, calm design system and full theme customizer support.</p>
+          <div class="tags"><span class="tag">WordPress</span><span class="tag">Theme dev</span><span class="tag">UI design</span></div>
+          <span class="proj-link">WordPress theme
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- Plugins -->
+      <article class="proj reveal">
+        <div class="proj-thumb">
+          <svg viewBox="0 0 360 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect x="40" y="30" width="280" height="120" rx="8" fill="#15152A" stroke="#22223A"/>
+            <rect x="40" y="30" width="280" height="26" rx="8" fill="#1A1A2E"/>
+            <circle cx="54" cy="43" r="3" fill="#E5644E"/><circle cx="66" cy="43" r="3" fill="#E5A94E"/><circle cx="78" cy="43" r="3" fill="#3DD68C"/>
+            <rect x="58" y="68" width="10" height="70" rx="3" fill="#6D5DF6" opacity=".35"/>
+            <rect x="76" y="88" width="10" height="50" rx="3" fill="#6D5DF6" opacity=".55"/>
+            <rect x="94" y="76" width="10" height="62" rx="3" fill="#6D5DF6" opacity=".75"/>
+            <rect x="112" y="98" width="10" height="40" rx="3" fill="#6D5DF6"/>
+            <path d="M160 120 190 90 215 108 245 74 300 96" stroke="#8B7CFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="300" cy="96" r="4" fill="#8B7CFF"/>
+          </svg>
+          <span class="proj-num">/05</span>
+        </div>
+        <div class="proj-body">
+          <h3>Custom WordPress Plugins</h3>
+          <p>A portfolio of production plugins — licensing systems, Telegram bot integrations, countdown timers, admin dashboards and shortcode tooling.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">Telegram API</span><span class="tag">Licensing</span></div>
+          <span class="proj-link">Plugin suite
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- Extensions -->
+      <article class="proj reveal">
+        <div class="proj-thumb">
+          <svg viewBox="0 0 360 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect x="40" y="30" width="280" height="120" rx="8" fill="#15152A" stroke="#22223A"/>
+            <rect x="40" y="30" width="280" height="26" rx="8" fill="#1A1A2E"/>
+            <rect x="120" y="36" width="150" height="14" rx="7" fill="#101020" stroke="#22223A"/>
+            <circle cx="54" cy="43" r="3" fill="#E5644E"/><circle cx="66" cy="43" r="3" fill="#E5A94E"/><circle cx="78" cy="43" r="3" fill="#3DD68C"/>
+            <rect x="230" y="66" width="76" height="72" rx="8" fill="#101020" stroke="#6D5DF6"/>
+            <rect x="240" y="78" width="56" height="8" rx="4" fill="#6D5DF6" opacity=".85"/>
+            <rect x="240" y="92" width="42" height="8" rx="4" fill="#22223A"/>
+            <rect x="240" y="106" width="50" height="8" rx="4" fill="#22223A"/>
+            <rect x="240" y="120" width="34" height="10" rx="5" fill="#6D5DF6" opacity=".6"/>
+            <rect x="58" y="70" width="150" height="12" rx="4" fill="#22223A"/>
+            <rect x="58" y="92" width="120" height="12" rx="4" fill="#22223A"/>
+            <rect x="58" y="114" width="136" height="12" rx="4" fill="#22223A"/>
+          </svg>
+          <span class="proj-num">/06</span>
+        </div>
+        <div class="proj-body">
+          <h3>Browser Extensions &amp; Tools</h3>
+          <p>Chrome extensions and userscripts for workflow automation — DOM tooling, dashboard enhancements and productivity shortcuts built on modern extension APIs.</p>
+          <div class="tags"><span class="tag">Chrome API</span><span class="tag">JavaScript</span><span class="tag">Automation</span></div>
+          <span class="proj-link">Extension suite
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-label">How I work</div>
+      <h2>A simple, honest process</h2>
+      <p>No surprises. You always know where your project stands.</p>
+    </div>
+    <div class="proc-grid">
+      <div class="proc reveal">
+        <span class="proc-num">Step 01</span>
+        <h3>Scope &amp; quote</h3>
+        <p>We define exactly what gets built, the timeline and the cost — in writing, before any code.</p>
+      </div>
+      <div class="proc reveal">
+        <span class="proc-num">Step 02</span>
+        <h3>Build in the open</h3>
+        <p>Regular progress updates with working previews — not silence followed by a big reveal.</p>
+      </div>
+      <div class="proc reveal">
+        <span class="proc-num">Step 03</span>
+        <h3>Test &amp; harden</h3>
+        <p>Error handling, edge cases and documentation — the parts that make software survive real users.</p>
+      </div>
+      <div class="proc reveal">
+        <span class="proc-num">Step 04</span>
+        <h3>Ship &amp; support</h3>
+        <p>Deployment, handover and post-launch support so nothing breaks when it matters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-label">Client feedback</div>
+      <h2>What clients say</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi reveal">
+        <svg class="quote-mark" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+        <p>Excellent work on the Project Management MVP. The UI/UX looks clean and professional, the dashboard is smooth, and the overall structure matches the workflow perfectly. This version is more than enough for Phase 1 — you did justice to the entire concept. Billy is very good with documentation and a truly professional developer. Give him your input on exactly what you want, and you will be surprised by the quality of the work.</p>
+        <div class="testi-who">
+          <div class="avatar">BR</div>
+          <div>
+            <div class="nm">Benedict R.</div>
+            <div class="rl">Desktop Application Project · Qatar</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi reveal">
+        <svg class="quote-mark" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+        <p>Definitely a professional and reasonable. Second project together and the quality has been consistent every time.</p>
+        <div class="testi-who">
+          <div class="avatar">EG</div>
+          <div>
+            <div class="nm">Egoyami</div>
+            <div class="rl">Gaming Application · United States</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid reveal">
+      <div>
+        <div class="sec-label">Let's work together</div>
+        <h2>Have a project in mind?</h2>
+        <p>Tell me what you're building and I'll get back to you within 24 hours — usually much faster.</p>
+        <div class="c-item">
+          <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></div>
+          <div><div class="k">Email</div><div class="v">hello@remotech.dev</div></div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="k">Location</div><div class="v">Nairobi, Kenya · UTC+3</div></div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div><div class="k">Availability</div><div class="v">Open for new projects</div></div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.98.578 3.826 1.573 5.377L2 22l4.755-1.548A9.953 9.953 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.5c-1.75 0-3.379-.508-4.755-1.384l-.34-.213-3.19.94.913-3.152-.223-.35A8.463 8.463 0 0 1 3.5 12c0-4.687 3.813-8.5 8.5-8.5s8.5 3.813 8.5 8.5-3.813 8.5-8.5 8.5z"/></svg></div>
+          <div><div class="k">WhatsApp</div><div class="v">+254 714 970 391</div></div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.64 6.8-1.667 7.858c-.126.564-.455.7-.923.436l-2.55-1.88-1.23 1.184c-.136.136-.25.25-.512.25l.183-2.596 4.728-4.27c.205-.183-.045-.285-.319-.102l-5.845 3.68-2.517-.786c-.547-.171-.557-.547.114-.81l9.837-3.789c.455-.166.854.11.7.825z"/></svg></div>
+          <div><div class="k">Telegram</div><div class="v">@developer_billy</div></div>
+        </div>
+        <div class="socials">
+          <a class="soc" href="https://wa.me/254714970391" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.98.578 3.826 1.573 5.377L2 22l4.755-1.548A9.953 9.953 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.5c-1.75 0-3.379-.508-4.755-1.384l-.34-.213-3.19.94.913-3.152-.223-.35A8.463 8.463 0 0 1 3.5 12c0-4.687 3.813-8.5 8.5-8.5s8.5 3.813 8.5 8.5-3.813 8.5-8.5 8.5z"/></svg>
+          </a>
+          <a class="soc" href="https://telegram.me/developer_billy" target="_blank" rel="noopener" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.64 6.8-1.667 7.858c-.126.564-.455.7-.923.436l-2.55-1.88-1.23 1.184c-.136.136-.25.25-.512.25l.183-2.596 4.728-4.27c.205-.183-.045-.285-.319-.102l-5.845 3.68-2.517-.786c-.547-.171-.557-.547.114-.81l9.837-3.789c.455-.166.854.11.7.825z"/></svg>
+          </a>
+          <a class="soc" href="https://github.com/billydev254" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.27 5.68.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          </a>
+          <a class="soc" href="https://www.linkedin.com/in/billy-kipkosgei-2258b3422/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          </a>
+          <a class="soc" href="https://x.com/remotechdev" target="_blank" rel="noopener" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <form id="contactForm">
+          <input type="hidden" name="access_key" value="cb6aaae0-37ba-49a4-bc67-e65871324ca8">
+          <input type="hidden" name="subject" value="New project inquiry from remotech.dev">
+          <input type="text" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form-field">
+            <label for="f-name">Your name</label>
+            <input type="text" id="f-name" name="name" placeholder="Jane Smith" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="f-email">Email</label>
+            <input type="email" id="f-email" name="email" placeholder="jane@company.com" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="f-msg">Project details</label>
+            <textarea id="f-msg" name="message" placeholder="What are you building? Timeline? Budget range?" required></textarea>
+          </div>
+          <button class="btn btn-primary" id="sendBtn" type="submit" style="width:100%;justify-content:center">
+            <span id="sendBtnText">Send message</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22 11 13 2 9 22 2z"/></svg>
+          </button>
+          <p class="form-note" id="formNote">Sent straight to my inbox — no data is stored on this site.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#" class="logo">
+          <span class="mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </span>
+          remotech<span class="tld">.dev</span>
+        </a>
+        <p>Software developer in Nairobi building WordPress plugins, payment integrations and web platforms for clients worldwide.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Navigate</h4>
+        <a href="#skills">Skills</a>
+        <a href="#work">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@remotech.dev">hello@remotech.dev</a>
+        <a href="#contact">Nairobi, Kenya (UTC+3)</a>
+        <a href="#contact">Response within 24h</a>
+      </div>
+    </div>
+    <div class="foot-bar">
+      <span>© <span id="year"></span> remotech.dev — Billy K. All rights reserved.</span>
+      <span class="mono">Local time: <span id="footClock">--:--</span> EAT</span>
+    </div>
+  </div>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite">
+  <span class="toast-icon" id="toastIcon"></span>
+  <div>
+    <div class="toast-title" id="toastTitle"></div>
+    <div class="toast-msg" id="toastMsg"></div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
